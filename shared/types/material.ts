@@ -1,0 +1,8 @@
+export interface MaterialDTO {
+  id: string
+  name: string
+  description?: string | null
+  isActive: boolean
+  createdAt?: string | Date
+  updatedAt?: string | Date
+}
